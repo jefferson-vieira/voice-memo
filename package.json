@@ -1,19 +1,28 @@
 {
-  "name": "public",
-  "version": "1.0.0",
+  "name": "voice-memo",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.mjs",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "npx http-server .",
+    "start": "live-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferson-vieira/voice-memo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "http-server": "^0.12.3"
+  "bugs": {
+    "url": "https://github.com/jefferson-vieira/voice-memo/issues"
+  },
+  "homepage": "https://github.com/jefferson-vieira/voice-memo#readme",
+  "devDependencies": {
+    "@types/dom-mediacapture-record": "^1.0.7",
+    "live-server": "^1.2.1"
   }
 }
